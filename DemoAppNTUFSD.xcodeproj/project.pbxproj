@@ -16,6 +16,7 @@
 		FCC308B824080A5700911502 /* DemoAppNTUFSDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC308B724080A5700911502 /* DemoAppNTUFSDTests.swift */; };
 		FCC308C324080A5800911502 /* DemoAppNTUFSDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC308C224080A5800911502 /* DemoAppNTUFSDUITests.swift */; };
 		FCC308D124080C0800911502 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC308D024080C0800911502 /* RegisterViewController.swift */; };
+		FCC308D324082B4D00911502 /* GlobalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC308D224082B4C00911502 /* GlobalManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FCC308C224080A5800911502 /* DemoAppNTUFSDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppNTUFSDUITests.swift; sourceTree = "<group>"; };
 		FCC308C424080A5800911502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCC308D024080C0800911502 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FCC308D224082B4C00911502 /* GlobalManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		FCC3089F24080A5400911502 /* DemoAppNTUFSD */ = {
 			isa = PBXGroup;
 			children = (
+				FCC308D224082B4C00911502 /* GlobalManager.swift */,
 				FCC308A024080A5400911502 /* AppDelegate.swift */,
 				FCC308A224080A5400911502 /* SceneDelegate.swift */,
 				FCC308A424080A5400911502 /* ViewController.swift */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCC308A524080A5400911502 /* ViewController.swift in Sources */,
+				FCC308D324082B4D00911502 /* GlobalManager.swift in Sources */,
 				FCC308A124080A5400911502 /* AppDelegate.swift in Sources */,
 				FCC308A324080A5400911502 /* SceneDelegate.swift in Sources */,
 				FCC308D124080C0800911502 /* RegisterViewController.swift in Sources */,

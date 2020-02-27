@@ -15,8 +15,23 @@ class RegisterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
         print(flagvariable)
+        print (GlobalManager.sharedInstance.count)
+        
+        
+        
+        print (UserDefaults.standard.bool(forKey: "Key"))
+        print (UserDefaults.standard.integer(forKey: "Key"))
+        print (UserDefaults.standard.string(forKey: "Key"))
+        
+        
+        // Remove
+        UserDefaults.standard.removeObject(forKey: "Key")
+        
+        //Remove all Keys
+        if let appDomain = Bundle.main.bundleIdentifier {
+        UserDefaults.standard.removePersistentDomain(forName: appDomain)
+         }
         
     }
     
