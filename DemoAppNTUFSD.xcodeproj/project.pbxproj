@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC465E0F243CCC2700DDAA9E /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC465E0E243CCC2700DDAA9E /* MyTableViewCell.swift */; };
+		FC465E11243CCF8A00DDAA9E /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC465E10243CCF8A00DDAA9E /* NewViewController.swift */; };
+		FCAEE3ED243CE82300AB347C /* myCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAEE3EC243CE82300AB347C /* myCellTableViewCell.swift */; };
 		FCC308A124080A5400911502 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC308A024080A5400911502 /* AppDelegate.swift */; };
 		FCC308A324080A5400911502 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC308A224080A5400911502 /* SceneDelegate.swift */; };
 		FCC308A524080A5400911502 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC308A424080A5400911502 /* ViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC465E0E243CCC2700DDAA9E /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		FC465E10243CCF8A00DDAA9E /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		FCAEE3EC243CE82300AB347C /* myCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCellTableViewCell.swift; sourceTree = "<group>"; };
 		FCC3089D24080A5400911502 /* DemoAppNTUFSD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAppNTUFSD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC308A024080A5400911502 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCC308A224080A5400911502 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +118,9 @@
 				FCC308A924080A5700911502 /* Assets.xcassets */,
 				FCC308AB24080A5700911502 /* LaunchScreen.storyboard */,
 				FCC308AE24080A5700911502 /* Info.plist */,
+				FC465E0E243CCC2700DDAA9E /* MyTableViewCell.swift */,
+				FC465E10243CCF8A00DDAA9E /* NewViewController.swift */,
+				FCAEE3EC243CE82300AB347C /* myCellTableViewCell.swift */,
 			);
 			path = DemoAppNTUFSD;
 			sourceTree = "<group>";
@@ -266,8 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCC308A524080A5400911502 /* ViewController.swift in Sources */,
+				FC465E0F243CCC2700DDAA9E /* MyTableViewCell.swift in Sources */,
+				FC465E11243CCF8A00DDAA9E /* NewViewController.swift in Sources */,
 				FCC308D324082B4D00911502 /* GlobalManager.swift in Sources */,
 				FCC308A124080A5400911502 /* AppDelegate.swift in Sources */,
+				FCAEE3ED243CE82300AB347C /* myCellTableViewCell.swift in Sources */,
 				FCC308A324080A5400911502 /* SceneDelegate.swift in Sources */,
 				FCC308D124080C0800911502 /* RegisterViewController.swift in Sources */,
 			);

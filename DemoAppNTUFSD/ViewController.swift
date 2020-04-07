@@ -33,9 +33,11 @@ class ViewController: UIViewController {
         
         print("In The Name Of Allah")
         lblTitle.text = "In The Name Of Allah"
+        
         let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "RegisterViewControllerID") as? RegisterViewController
         vc?.flagvariable = "My value Lay Jao"
         self.navigationController?.pushViewController(vc!, animated: true)
+        
     }
 }
 
